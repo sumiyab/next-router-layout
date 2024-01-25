@@ -16,6 +16,9 @@ const Navbar = () => {
       <button onClick={() => router.push("/clock")}>Clock</button>
       <button onClick={() => router.push("/stopwatch")}>StopWatch</button>
       <button onClick={() => router.push("/timer")}>Timer</button>
+      <button onClick={() => router.push("/clock")}>Clock</button>
+      <button onClick={() => router.push("/stopwatch")}>StopWatch</button>
+      <button onClick={() => router.push("/timer")}>Timer</button>
     </div>
   );
 };
